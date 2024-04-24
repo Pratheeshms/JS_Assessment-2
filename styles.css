@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #162938;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(se.jpg);
+}
+
+.registration-container {
+    background-color: #ffffff;
+    padding:  0 20px  0 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    opacity: .7;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.registration-container h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input[type="text"],
+.input-group input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border:none;
+    outline: none;
+    background:transparent;
+    border-bottom:1.6px solid #162938; 
+}
+
+.input-group input[type="radio"],
+.input-group input[type="checkbox"] {
+    margin-right: 5px;
+
+}
+.input-group input{
+     font-size: 18px;
+    font-weight: 500;
+    color: #162938;
+   
+}
+.gen{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.icon{
+    margin-left: 17rem;
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #162938;   
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#11776c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+

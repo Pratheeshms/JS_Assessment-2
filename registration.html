@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="registration-container">
+        <h1>Registration Form</h1>
+        <form id="registration-form">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            <label>Gender:</label>
+            <div class="gen">
+                
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            <label>Languages:</label>
+            <div class="gen">
+                
+                <input type="checkbox" id="english" name="language" value="english">
+                <label for="english">Tamil</label>
+                <input type="checkbox" id="spanish" name="language" value="spanish">
+                <label for="spanish">English</label>
+                <input type="checkbox" id="french" name="language" value="french">
+                <label for="french">Malayalam</label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
